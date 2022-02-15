@@ -4,7 +4,6 @@ public class InsertionSort {
 
     private static int[] insertionSort(int[] array){
         // 3,5,8,6,7,1,6,4,9
-
         for (int i = 1; i < array.length; i++){
             int save = array[i];
             int j = i-1;
