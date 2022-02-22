@@ -1,7 +1,7 @@
 public class SelectionSort {
 
-    //Selection sort also divides the array into a sorted and unsorted subarray. But, this time the sorted subarray is formed
-    //by inserting the minimum element of the unsorted subarray at the end of the sorted array, by swapping.
+    //Selection sort also divides the array into a sorted and unsorted sub-array. But, this time the sorted subarray is formed
+    //by inserting the minimum element of the unsorted sub-array at the end of the sorted array, by swapping.
 
     private static int[] selectionSort(int[] array){
         for (int i =0; i < array.length; i++){
